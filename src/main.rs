@@ -12,6 +12,4 @@ fn main() {
 
 fn TypeOf<T>(_: &T) {
     println!("{}", std::any::type_name::<T>());
-
-
 }
