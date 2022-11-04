@@ -13,10 +13,10 @@ fn main() {
     type_of(&var);
     type_of(&b);
 
-    type_transfer();
+    type_inference();
 }
 
-fn type_transfer() {
+fn type_inference() {
     let vartan: u8 = 3;
     type_of(&vartan);
     let narton = vartan;
